@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Pocket Tabs",
+  "version": "1.0",
+  "description": "Pockets all the urls in a given firefox instance and stores them to be restored later",
+  "icons": {
+    "48": "icons/pocketTab-48.png"
+  },
+  "permissions": [
+      "tabs",
+      "cookies",
+      "activeTab",
+      "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/pocketTab-32.png"
+    },
+    "default_title": "Pocket Tab",
+    "default_popup": "popup/pocketTabMenu.html"
+  }
+}
