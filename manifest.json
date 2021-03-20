@@ -18,5 +18,10 @@
     },
     "default_title": "Pocket Tab",
     "default_popup": "popup/pocketTabMenu.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+		    "id": "pocketTabs@testing"
+		}
   }
 }
